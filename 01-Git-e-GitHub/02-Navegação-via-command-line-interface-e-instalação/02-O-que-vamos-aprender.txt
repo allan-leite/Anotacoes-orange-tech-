@@ -1,0 +1,8 @@
+	O que vamos aprender?
+	
+	-Mudar de pastas
+	-Listar as pastas
+	-Criar pastas/arquivos
+	-Deletar pastas/arquivos
+
+	Comandos básicos para que a gente possa se situar e navegar, usando um CLI/Terminal, para que a gente interaja com o Git da maneira que a gente consiga aprender os conceitos de uma forma mais certa.

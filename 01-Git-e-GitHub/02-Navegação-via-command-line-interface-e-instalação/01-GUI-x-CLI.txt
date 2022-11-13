@@ -1,0 +1,11 @@
+	Navegação básica no terminal e instalação.
+
+	GUI x CLI
+	
+	A maioria dos sistemas operacionais, tem programas que possuem uma interface gráfica, ou seja, a forma com que o usuário interage com esse programa é de forma gráfica, ele pode clicar arrastar... Tudo é responsivo, tudo responde aos comandos do usuário, sejam eles clicar, arrastar ou selecionar.
+	
+	O software que a gente vai interagir, que no caso é o Git, ele é um software que o desing é voltado para outro tipo de programa. Ele é um CLI (Command Line Interface) ele é diferente do GUI (Grafic User Interface).
+
+	Ele não tem uma interface gráfica, a forma de interagir com o Git é por linha de comando.
+	
+	Hoje em dia temos programas que automatizam isso, e que acrescentam ao Git uma interface gráfica, tornando tudo mais simples. Mas nesse curso iremos interagir com a CLI (Command Line Interface).

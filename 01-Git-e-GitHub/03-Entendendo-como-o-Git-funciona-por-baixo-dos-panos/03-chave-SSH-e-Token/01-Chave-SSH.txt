@@ -1,0 +1,7 @@
+	O que é Chave SSH?
+
+	Falando a grosso modo, é uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas.
+
+	No caso, a gente vai se conectar com o servidor do GitHub e iremos configurar nossa máquina local, como uma máquina confiável pro GitHub, estabalecendo essa conexão com duas chaves, vai ter sempre uma chave pública e uma chave privada, a gente vai pegar essa chave pública e colocar dentro do Git Hub, e a partir do momento em que a gente fizer isso, o Git Hub vai reconhecer nossa máquina.
+
+	Então todos os repositórios que a gente tiver na nossa máquina, por esse processo SSH, e a gente for enviar código para o GitHub, ele já vai reconhecer a assinatura da nossa máquina, já vai ter uma conexão prévia estabelecida, e nós seremos capaz de enviar código sem nem precisar colocar senha.

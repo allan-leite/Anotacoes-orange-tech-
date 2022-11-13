@@ -1,0 +1,9 @@
+	Token de acesso pessoal
+
+	Essa é a segunda forma de autenticação segura que o GitHub oferece pra gente, ele se assemelha mais ao processo de digitar o seu nickname e a sua senha, não tem a vantagem da chave SSH de não requerer senha.
+	
+	Nesse caso de token de acesso pessoal, você vai gerar um token lá no GitHub, vai guardar ele na sua máquina ou em algum lugar, e sempre que você for fazer um commit, o Git vai pedir o seu usário e sua senha, e na hora de por a senha você vai usar o seu token de acesso pessoal.
+
+	token de acesso criado:
+	
+	

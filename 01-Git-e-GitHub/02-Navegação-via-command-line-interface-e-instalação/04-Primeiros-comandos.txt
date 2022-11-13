@@ -1,0 +1,61 @@
+	Abrindo o terminal
+
+	Na sua área de trabalho, aperte o botão Windows do seu teclado e digite na área de pesquisa "cmd", e clique em "Prompt de Comando".
+
+	Irá abrir o terminal do Windows na pasta padrão: Diretório C:\Users\Usuário>.
+
+	Primeiros comandos de navegação
+	
+	------ dir(Windows) ls(Unix) ------
+	
+	O primeiro comando que a gente vai aprender, é para poder listar, é para a gente se situar em um sistema operacional e entender em qual local a gente está.
+	
+	No Windows esse é o comando "dir"
+	
+	digite dir no terminal e aperte enter. Ele irá trazer uma lista de diretórios na pasta em que você está situado.
+	
+	------ cd(Windows e Unix) ------
+
+	Esse comando vai possibilitar que a gente navegue entre as pastas e ele é igual para todos os sistemas operacionais.
+
+	Você digita no terminal cd e passa um caminho específico. Exemplo: C:\Users\allan>cd /. E clique em enter.
+
+	O comando te levou para a base do diretório C.
+	
+	Se você agora digitar o comando dir, ele vai listar para você as pastas presentes no diretório C.
+
+	Se você quiser entrar em uma pasta especifica, basta digitar cd e o nome da pasta, exemplo: cd Windows. E clique em enter.
+	
+	Agora você está dentro da pasta windows, se você usar o comando dir, irá listar as coisas presentes dentro de windows.
+
+	------ cd.. (Windows e Unix) ------
+
+	Esse comando serve para você retroceder para a pasta anterior.
+
+	------ cls(windows) clear (Unix)------
+
+	Esse comando limpa a tela do terminal.
+
+	------ tecla Tab ------
+
+	A tecla tab no teclado tem a função no terminal de autocompletar. Isso vai estar livrando você de estar escrevendo nome de pastas grandes, nomes complexos de arquivos e também de estar escrevendo errado.
+
+	------ mkdir(windows e Unix) ------
+
+	Esse comando cria uma pasta, exemplo: mkdir workspace. E clique em enter.
+
+	Caso não apareça nada no terminal, é sinal de que deu tudo certo. Se algo der errado, o terminal irá te avisar.
+
+	------ del (Windows) ------
+
+	Esse comando deleta uma pasta, exemplo: del workspace.
+
+	Esse comando del se restringe em apenas deletar arquivos, ele não deleta repositórios.
+
+	Se você entrar dentro da pasta em que você usou o comando del, irá perceber que não existe mais nada dentro dela.
+
+	------ rmdir (Windows) ------
+
+	Esse comando deleta o repositório junto com todos os arquivos dentro dele.
+
+	

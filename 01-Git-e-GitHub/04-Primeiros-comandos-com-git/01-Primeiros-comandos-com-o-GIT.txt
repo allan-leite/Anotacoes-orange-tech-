@@ -1,0 +1,22 @@
+	Primeiros comandos com o GIT
+
+	O que vamos fazer com esses comandos?
+	
+	-Iniaciando o GIT;
+	-Iniciar o versionamento;
+	-Criar um commit.
+	
+	Os comandos:
+
+	-git init:
+	Para poder inicar o repositório do git.
+	
+	-git add:
+	Para poder mover arquivos e dar início ao versionamento.
+	
+	-git commit:
+	Para criar o primeiro commit.
+
+	Quando estamos lidando com o terminal, a gente coloca sempre o nome do programa primeiro, a gente está chamando pelo terminal o Git e também comando específicos do Git.
+
+	Por isso todo o comando do Git leva a palavra "git" primeiro, e o comando específico do Git logo após. Ou seja: git init; git add; git commit.

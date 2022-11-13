@@ -1,0 +1,16 @@
+	Por que aprender Git?
+	
+	O Git foi criado em 2005, e o git é um sistema de versionamento de código distribuído, ele foi criado por Linus Torvalds, ele também é o criador por de trás do Linux.
+
+	O Linus estava enfrentando um problema complicado, o núcleo de um sistema operacional é um software com centenas de milhares de linhas de código, e o Linus estava desenvolvendo o Linux de forma colaborativa(todo softaware é feito de forma colaborativa), através de uma equipe distribuída no mundo inteiro, e o Linus precisava de um sistema que criasse versões do trabalho que ele estava executando e que fosse complexo o suficiênte para suportar pessoas do mundo inteiro trabalhando, as vezes no mesmo arquivo, as vezes alterando a mesma linha.
+	
+	É isso que o Git soluciona, ele é um software de versionamento de código, ele vai ajudar a gente a criar e monitorar diferentes versões do nosso código, dentro de nossa máquina.
+
+	Embora o Linux hoje ser um padrão de mercado, ele não é uma invensão do Linus, na verdade, já existia um sistema de versionamento de código, e o Git é apenas uma criação do Linus que nasceu da insatisfação dele de usar os sistemas de versionamento de código da época para poder trabalhar e versionar o Kernel do Linux.
+
+	Depois que se já tem um software para cuidar dessa parte de versionamento de código, precisamos de um lugar para armazenar ele, por isso surgiram outras empresas para solucionar essa demanda.
+	
+	Hoje em dia temos o Git Hub, que é uma empresa da microsoft muito bem estabelecida no mercado.
+	
+
+	

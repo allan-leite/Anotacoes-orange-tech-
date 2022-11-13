@@ -1,0 +1,20 @@
+	O que os repositórios significam?
+
+	Nesse momento a gente tem um ambiênte de desenvolvimento, que representa tudo que está na nossa maquina e temos um servidor.
+
+	Lembra quando falamos que o git é um sistema distribuído? Ele tem uma versão própia do seu código no servidor (que no caso é o github), e também tem a versão que está na sua máquina.
+
+	A versão do código que você edita na sua máquina, não repercute imediatamente na versão que está no seu repositório remoto, a não ser que você execute um conjunto de códigos específico.
+
+	-SERVIDOR
+	REMOTE REPOSITORY
+
+	-AMBIENTE DE DESENVOLVIMENTO
+	WORKING DIRECTORY
+	STAGING AREA
+	LOCAL REPOSITORY
+
+	Funciona da seguinte forma:
+	No seu ambiente de desenvolvimento, você tem o seu repositório de trabalho e tem também a STAGING AREA, os arquivos vão ficar sempre alterando entre o ambiente de trabalho e a staging area a medida que você vai adionando novos arquivos no ambiente de trabalho e modificando novos arquivos nesse repositório.
+
+	Quando você faz um commit, ele passa a integrar o seu repositório local, e o seu repositório local pode ser movido para o seu repositório remoto.

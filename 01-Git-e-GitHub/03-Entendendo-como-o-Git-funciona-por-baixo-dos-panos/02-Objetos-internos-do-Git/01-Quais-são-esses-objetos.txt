@@ -1,0 +1,9 @@
+	Quais são esse objetos?
+
+	-BLOBS
+	-TREES
+	-COMMITS
+
+	São os três tipos básicos de objetos do Git responsáveis por versionamento do nosso código.
+	
+		

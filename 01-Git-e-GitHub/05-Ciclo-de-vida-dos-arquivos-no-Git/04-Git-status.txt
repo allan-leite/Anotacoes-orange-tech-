@@ -1,0 +1,5 @@
+	git status
+
+	O git status vai ajudar a gente a monitorar os status dos arquivos.
+
+	Vai dizer pra gente se o arquivo está untracked, unmodified, modified e staged.

@@ -1,0 +1,26 @@
+	SHA1
+
+	A sigla SHA significa Secure Hash Algorithm (algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+
+	O que na verdade então é o SHA1?
+	
+	O SHA1 é um algoritmo de encriptação, então falando a grosso modo, ele é um algoritmo que vai pegar o seu arquivo, seja ele uma imagem ou uma frase, e vai embaralhar ele de uma forma muito específica.
+
+	Porque isso é relevante para nós?
+
+	Por que a saída dessa encriptação, esses dados encriptados, geram um conjunto de caracteres indentificador de 40 dígitos.
+
+	E esse conjunto de 40 caracteres é único, e ele serve como identificação. 
+
+	O que eu quero dizer com isso? 
+
+	Se você tem um arquivo de texto muito grande, por exemplo, e você roda esse algoritmo nesse arquivo de texto, ele vai te gerar um conjunto de caracteres de 40 digitos, se você for nesse arquivo novamente e mudar algum caractere, sequer uma virgula, e rodar esse algoritmo novamente, ele vai te gerar outro conjunto diferente de caracteres de 40 digitos digitos.
+
+	Se você voltar no arquivo e desfazer as alterações, ele vai gerar o mesmo caractere de 40 digitos que foi gerado antes, pois o texto está igual ao de antes.
+
+	Por isso ele é muito eficiênte, e é por isso que o Git usa esse algoritmo de encriptação para poder idêntificar os arquivos de forma segura e rápida.
+
+	É uma forma curta de representar um arquivo.
+
+	1 echo "ola mundo" | openssl sha1
+	2 > (stdin)= f9fc856e559b950175f2b7cd7dad61facbe58e7b

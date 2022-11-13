@@ -1,0 +1,6 @@
+	Git é diferente de GitHub
+
+	Como o Git e o Git Hub são duas empresas muito fortes no mercado, é comum que elas apareçam juntas em vários cursos (inclusive esse), e trazem Git e GitHub no título do curso por exemplo.
+
+ 	E que podem acabar passando a ideia de que Git e GitHub são a mesma coisa, e que na verdade não são, são duas técnologias diferentes, são complementares mas diferentes.
+

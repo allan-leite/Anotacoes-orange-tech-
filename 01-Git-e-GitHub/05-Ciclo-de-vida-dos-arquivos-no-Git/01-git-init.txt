@@ -1,0 +1,10 @@
+	git init
+
+	git init: 
+	Esse comando além de criar uma pasta ".git", igual vimos na aula passada, também inicializa um conceito do Git chamado repositório.
+
+	Quando usamos o git init, de fato estamos criando um repositório no Git dentro daquele diretório.
+
+	Então iremos prestar mais atenção nesse tipo de terminologia, que quando usamos o comando git init, cria-se um repositório.
+
+	

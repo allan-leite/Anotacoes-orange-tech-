@@ -1,0 +1,75 @@
+	Tracked ou Untracked
+
+							Tracked
+
+Untracked			Unmodified		Modified				Staged
+|					|				|					|
+|					|				|					|
+|Adiciona o arquivo	|				|					|
+|>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>		|
+|					|				|					|
+|					|				|					|
+|					|Edita o arquivo	|					|
+|					|>>>>>>>>>>>>>>>>	|					|
+|					|				|					|
+|					|				|"Stage" o arquivo	|
+|					|				|>>>>>>>>>>>>>>>>>>	|
+|Remove o arquivo		|				|					|
+|<<<<<<<<<<<<<<<<<<	|				|					|
+|					|				|	   commit		|	
+|					|<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	|
+|					|				|					|
+
+	Para entendermos melhor o conceito de tracked e Untracked, iremos dar uma olhada nessa imagem.
+
+	Dentro de Tracked, dentro dos arquivos que são rastreados de fato pelo git, pode se divir em três estágios direrentes:
+	
+	Unmodified:
+	É o arquivo que ainda não foi modificado.
+	
+	Modified:
+	É o arquimo Unmodified que sofreu modificação.
+	
+	Staged:
+	É Onde fica os arquivos que estão sendo preparados para fazer parte de outro tipo de agrupamento.
+	
+	Também temos outro agrupamento que é o Untracked, que é o agrupamento que o git ainda não tem ciencia deles. E Tracked é o arquivo que o git TEM ciencia deles.
+
+	Na aula passada nós já manipulamos esses estados do git, de forma prática, por isso nós não vimos esses conceitos
+
+	Quando usamos na aula passada o git add, nós fizemos o seguinto processo:
+
+Untracked			Unmodified		Modified				Staged
+|					|				|					|
+|					|				|					|
+|Adiciona o arquivo	|				|					|
+|>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>	|
+
+	Nós tinhamos um arquivo que estava Untracked, pois acabavamos de cria-lo, e nós rodamos o segundo comando, o git add, e o git add moveu ele direto para o Staged.
+
+Unmodified		Modified				
+|				|				Nos arquivos Unmodified é muito simples, Você tem um arquivo 
+|				|			Dentro do repositório do Git que ainda não sofreu modificação, 
+|				|			então você abre esse arquivo, modifica algo nele, e 
+|				|			automaticamente muda de Unmodified para modified.
+|				|				O Git vai comparar o sha1 dos arquivos, e vai ver que o tem 
+|Edita o arquivo	|			alguma modificação no arquivo.
+|>>>>>>>>>>>>>>>>	|
+
+
+Modified				Staged		Se a gente rodar o git add de novo, nesse arquivo modified,
+|					|		ele vai para o staged.
+|"Stage" o arquivo	|
+|>>>>>>>>>>>>>>>>>>	|
+
+
+Untracked			Unmodified    	Se nós tivermos um arquivo Unmodified, e removermos esse 
+|Remove o arquivo		|			arquivo, ele vai para o Untracked.
+|<<<<<<<<<<<<<<<<<<	|
+
+
+Unmodified		Modified				Staged		Quando a gente move um arquivo para o
+|				|	   commit		|		Staged, ele está se preparando para fazer parte 
+|<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	|		de um commit.
+
+	E o commit retorna todos esses arquivos para Unmodified, para começar o ciclo de novo.

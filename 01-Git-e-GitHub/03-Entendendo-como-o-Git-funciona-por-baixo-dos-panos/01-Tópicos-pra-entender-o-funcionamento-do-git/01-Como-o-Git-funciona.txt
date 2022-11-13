@@ -1,0 +1,10 @@
+	Entendendo como o Git funciona por baixo dos panos.
+	
+	Nós vamos entender alguns conceitos fundamentais da tecnologia, para que a gente consiga lá na frente quando nós começarmos a executar os nossos primeiros comando, a gente tenha ciência do que esta acontencendo por de baixo dos panos.
+	
+	Para entendermos isso iremos falar sobre 4 tópicos:
+	
+	-SHA1
+ 	-Objetos fundamentais
+	-Sistemas distribuído
+	-Segurança

@@ -1,0 +1,17 @@
+	Windows
+	
+	-cd
+	-dir
+	-mkdir
+	-del / rmdir
+	
+	Unix
+
+	-cd
+	-ls
+	-mkdir
+	-rm -rf
+	
+	Usuários do sistema operácional Windows vão interagir com o terminal e rodar alguns comandos de formas diferentes dos usuários de Unix.
+	
+	

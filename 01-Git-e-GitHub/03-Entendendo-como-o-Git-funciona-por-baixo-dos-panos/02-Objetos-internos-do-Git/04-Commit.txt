@@ -1,0 +1,34 @@
+	Commit
+	
+	Commit		<tamanho>
+	tree		s4a5acq1
+	autor		perkles
+	mensagem	"inicia..."
+	timestamp
+
+	O sha1 desse commit é o hash de toda a essa informação	
+
+	Por fim o objeto mais importante de todos, que é o commit
+
+	O commit é o objeto que vai juntar tudo, é o objeto que vai dar sentido para a auteração que você está fazendo.
+	
+	O commit aponta para:
+	Uma arvore;
+	Um parente, ou seja, o último commit realizado antes dele;
+	Um autor;
+	E uma mensagem.
+
+	O autor e mensagem fazer parte da ideia de sentido que eu acabei de dizer.
+
+	Você pode escrever uma mensagem nesse objeto chamado commit, que vai estar dando significado para todo esse arquivo, dentro desse monte de pasta.
+
+	Esse commit tem também um timestamp (carimbo de tempo), esse objeto leva a data e a hora certinha de quando ele foi criado.
+
+	A parte gênial de tudo é que esses commits também possuem um sha1, encriptação e a geração de um hash de 40 caracteres.
+
+	O que isso significa?
+	Se você altera uma blob, vai alterar no sha da blob, alterando os meta dados da tree, alterando o sha da tree, no final alterando o sha do commit.
+
+	Resumindo: se você mudar qualquer coisa em um arquivo, isso vai refletir na arvore, que por consequência vai refletir no seu commit.
+
+	Por isso o git é tão confiável, você garante que ninguem alterou seu commit.

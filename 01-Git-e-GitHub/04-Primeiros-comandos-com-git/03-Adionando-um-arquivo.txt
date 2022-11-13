@@ -1,0 +1,25 @@
+	Adionando um aquivo
+	
+	A gente poderia usar um arquivo ".txt", mas iremos usar um tipo de arquivo diferente, chamado markdown.
+
+	Um arquivo markdown nada mais é do que uma forma mais humana de escrever um arquivo ".html".
+
+	Markdown:
+	# Título nível 1
+	## Título nível 2
+	### Título nível 3
+	#### Título nível 4
+	##### Título nível 5
+	###### Título nível 6
+
+	Html:
+	<h1>Título nível 1</h1>
+	<h2>Título nível 2</h2>
+	<h3>Título nível 3</h3>
+	<h4>Título nível 4</h4>
+	<h5>Título nível 5</h5>
+	<h6>Título nível 6</h6>
+
+	Quando estamos utilizando esse arquivo especial ".md" (que é o Markdown) nós estamos usando atalhos simples para poder modificar o comportamento do texto para que ele fique mais bonito.
+
+	O Markdown começa bem simples e nós conseguimos fazer coisas bem complexas e charmosas, para que o nosso texto fique bem orgânizado.

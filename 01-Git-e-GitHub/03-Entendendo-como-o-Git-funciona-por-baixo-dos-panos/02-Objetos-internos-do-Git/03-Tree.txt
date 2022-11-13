@@ -1,0 +1,25 @@
+	Tree
+
+	As Trees armazenam blobs.
+
+	É uma crescente, o blob sendo o bloco básico de composição, a tree armazenando e apontando para tipos de blobs diferentes e para um outro tipo de dado, que são os commits, que veremos mais para frente.
+
+	Tree 	<tamanho>
+	\0
+	blob	sa4d8s	texto.txt 
+
+	Uma árvore também contém meta dados, ela contém uma barra invertida e um zero "\0", ela aponta para um blob que contém um sha1, e ela guarda o nome do arquivo.
+
+	Se repararmos o blob não guarda o nome do arquivo, ele guarda somente o sha daquelo arquivo.
+
+	A árvore vai ser responsável por montar toda a estrutura de onde esta os localizado os arquivos.
+
+	Elas podem apontar tanto para blobs quanto para outras árvores, ou seja, uma árvore pode apontar para outra árvore.
+
+	As árvores também tem um sha1 desse meta dado.
+
+	As blobs tem um sha1 do arquivo, as Trees apontam para essas blobs, e tem um sha1 encriptado dos meta dados da tree.
+
+	Se mudar alguma coisa em algum arquivo no qual essa tree está apontando, quando ela for gerar o sha1 desses meta dados, o sha da blob vai ter mudado, o que consequêntemente vai refletir do sha da tree.
+
+	Uma coisa está sempre relacionada com a outra, se você mudar qualquer coisa em algum arquivo, por consequência, a gente vai mudar toda estrutura/leitura/encriptação desse objeto.

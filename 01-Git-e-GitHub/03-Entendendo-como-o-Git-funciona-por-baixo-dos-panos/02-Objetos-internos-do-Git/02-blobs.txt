@@ -1,0 +1,38 @@
+	Blobs 
+	Exemplo prático:
+
+1	$ echo 'conteudo' | git hash-object --stdin
+2	> fc31e91b26cf85a55e072476de7f263c89260eb1
+3
+4	$ echo -e 'conteudo' | openssl sha1
+5	> 65b0d0dda479cc03cce59528e28961e498155f5c
+
+	Novamente nós vamos usar, a primeira linha desse comando para rodar no nosso terminal a função echo, que vai pegar uma string e cuspir o output dessa string e a gente vai passar esse output, que é 'conteudo', para uma função do git "hash-object".
+	
+	Essa flag que a gente colocou "--stdin" é apenas porque essa função espera receber um arquivo e nós estamos falando que nós estamos enviando um texto, e é só para que a função entenda.
+
+	Se a gente passa essa string "conteudo" para a função do git, ela vai devolver para a gente o SHA1 desse "conteudo" que é: fc31e91b26cf85a55e072476de7f263c89260eb1.
+
+	E se eu fizer essa mesma coisa? Só que sem usar o git dessa vez, usando apenas o openssl igual fizemos antes.
+	
+	Então eu faço: echo -e 'conteudo'. Faço novamente uma string e jogo ela para ser encriptada pelo sha1. 
+
+	Só que me gera outro tipo de sha: 65b0d0dda479cc03cce59528e28961e498155f5c. 
+	Porque isso acontece?
+
+	Porque o git manipula esses arquivos atravéz de objetos, os arquivos ficam armazenados dentro de um objeto chamado blob, e esse objeto contém meta dados dentro dele. Esses meta dados são: o tipo de objeto, o tamanho da string ou arquivo, uma barra contrária e um zero "\0", e o conteúdo do arquivo.
+	
+	Blob	Tamanho42
+
+	\0
+	Ola mundo
+
+	Essa é a estrutura basica de uma bolha (blob), a partir disso a gente vai entender o porque os hashs acima foi diferente um do outro.
+	
+	$ echo 'conteudo' | git hash-object --stdin
+	fc31e91b26cf85a55e072476de7f263c89260eb1
+
+	$ echo -e 'blob 9\0conteudo' | openssl sha1
+	fc31e91b26cf85a55e072476de7f263c89260eb1
+
+	Quando eu passo os meta dados para a string ele gera exatamento o mesmo sha.
